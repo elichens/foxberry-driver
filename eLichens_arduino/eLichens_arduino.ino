@@ -114,6 +114,8 @@ ELCOM_errorCode_t el_uartReceive(uint8_t *data)
   
   // Enables the selected software serial port to listen
   sensorSerial.listen();
+
+  return ELCOM_NO_ERROR;
 }
 
 
